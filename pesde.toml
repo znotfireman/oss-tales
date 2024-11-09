@@ -1,0 +1,25 @@
+name = "znotfireman/oss_tales"
+version = "0.1.0"
+description = """ \
+A faithful moddable recreation of Spaceman Moonbase's Roblox turn-based \
+pyschological horror RPG: Block Tales. \
+""""
+authors = ["Fire <znotfireman+hello@gmail.com>"]
+repository = "https://github.com/znotfireman/oss-tales"
+license = "MIT"
+
+[target]
+environment = "roblox"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/sourcemap_generator.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+Fusion = { wally = "elttob/fusion", version = "0.3.0" }
