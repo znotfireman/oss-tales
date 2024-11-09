@@ -1,6 +1,6 @@
 <div align=center>
 
-<img alt="Open Source Block Tales" src="assets/github/oss-tales.png" width="300px"/>
+<img alt="Open Source Block Tales" src="assets/github/oss-tales.png" width="500px"/>
 
 <h1>Open Source Block Tales</h1>
 
